@@ -1,12 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
-    <h1>Vitinho69</h1>
+    <header id="inicio">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner-principal">
+        <div class="container">
+            <div class="perfil">
+                <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+                <h1>Seu Nome</h1>
+                <p>Designer Gráfico | Desenvolvedor Web</p>
+                <a href="#contato" class="btn">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou [Seu Nome], um profissional apaixonado por [sua área de atuação]. Com experiência em [mencione algumas habilidades principais], meu objetivo é criar soluções visuais e funcionais que atendam às necessidades dos meus clientes. Durante a minha carreira, trabalhei em projetos que envolveram [exemplo de projetos ou desafios].</p>
+            <p>Sempre busco aprender e me manter atualizado com as últimas tendências do mercado para entregar um trabalho de alta qualidade.</p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="grid-habilidades">
+                <div class="habilidade">
+                    <h3>Desenvolvimento Web</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="habilidade">
+                    <h3>Design Gráfico</h3>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Figma</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="grid-projetos">
+                <div class="projeto">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
+                    <h3>Nome do Projeto 1</h3>
+                    <p>Descrição curta do projeto, tecnologias utilizadas e o que foi alcançado.</p>
+                    <a href="#" class="btn-projeto">Ver Mais</a>
+                </div>
+                <div class="projeto">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
+                    <h3>Nome do Projeto 2</h3>
+                    <p>Descrição curta do projeto, tecnologias utilizadas e o que foi alcançado.</p>
+                    <a href="#" class="btn-projeto">Ver Mais</a>
+                </div>
+                <div class="projeto">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 3">
+                    <h3>Nome do Projeto 3</h3>
+                    <p>Descrição curta do projeto, tecnologias utilizadas e o que foi alcançado.</p>
+                    <a href="#" class="btn-projeto">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Ficou interessado no meu trabalho? Vamos conversar!</p>
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a>
+                <a href="https://github.com/seu-perfil" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
